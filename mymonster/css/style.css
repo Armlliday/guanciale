@@ -1,0 +1,48 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/guanciale.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+#container{
+	/*float: right;*/
+	background: rgb(249, 214, 98,0.5);
+	width: 424px;
+	color: black;
+	padding: 35px;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	height: 100%;
+}
+h1{
+	font-size: 80px;
+	color: #890814;
+}
+h2{
+	background: #423431;
+	color: #E8E1C5;
+	padding: 10px;
+	border-radius: 5px;
+}
+a{
+	color: #423431;
+	text-decoration: none;
+
+}
+p{
+	font-weight: bold;
+}
